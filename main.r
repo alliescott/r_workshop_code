@@ -8,7 +8,7 @@ data <- airquality
 data <- data[!is.na(data$Ozone) & !is.na(data$Solar.R) & !is.na(data$Wind) & !is.na(data$Temp) & !is.na(data$Month) & !is.na(data$Day), ]
 
 # Analysis Part 1: Calculate average Solar Radiation for each month
-avg_solar_January = 0
+avg_solar_January = 2
 avg_solar_May <- 0
 avg_solar_June <- 0
 avg_solar_July <- 0
